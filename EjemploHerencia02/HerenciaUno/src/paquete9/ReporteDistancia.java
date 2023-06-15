@@ -53,7 +53,7 @@ public class ReporteDistancia extends Reporte {
                     + "Apellido: %s\n"
                     + "Identificacion: %s\n"
                     + "Edad: %d\n"
-                    + "Costo Asignatura: %.d\n"
+                    + "Costo Asignatura: %.2f\n"
                     + "Numero de Asignatura: %d\n"
                     + "Total matricula: %.2f\n",
                     cadena,lista.get(i).nombresEstudiante,
