@@ -18,8 +18,8 @@ public class ReportePresencial extends Reporte{
     private double matriculaMenorCosto;
     private double matriculaMayorCosto;
     
-    public ReportePresencial(String nombre, String carrera, String ciclo){
-        super(nombre, carrera, ciclo);
+    public ReportePresencial(String nombre, String p,String carrera, String ciclo){
+        super(nombre,p, carrera, ciclo);
         
     }
     

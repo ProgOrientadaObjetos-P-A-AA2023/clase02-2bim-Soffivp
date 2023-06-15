@@ -14,17 +14,23 @@ import java.util.ArrayList;
 public class Reporte {
 
     protected String nombre;
+    protected String apellido;
     protected String carrera;
     protected String ciclo;
-    
-    public Reporte(String n, String c, String cic){
+
+    public Reporte(String n, String p, String c, String cic) {
         nombre = n;
+        apellido = p;
         carrera = c;
         ciclo = cic;
     }
-    
+
     public void establecerNombre(String n) {
         nombre = n;
+    }
+
+    public void establecerApellido(String p) {
+        apellido = p;
     }
 
     public void establecerCarrera(String n) {
@@ -37,6 +43,10 @@ public class Reporte {
 
     public String obtenerNombre() {
         return nombre;
+    }
+
+    public String obtenerApellido() {
+        return apellido;
     }
 
     public String obtenerCarrera() {
